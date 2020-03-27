@@ -20,7 +20,7 @@ namespace ConsoleApp1
 
         }
 
-        private static int CalculateAlma()
+        private static int CalculateAlma() // other comment for the chaos
         {
             int alma = 1;
             const int INCREASE = 3 + 4 + 5;
