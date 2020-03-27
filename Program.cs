@@ -15,11 +15,18 @@ namespace ConsoleApp1
             int.TryParse(Console.ReadLine(), out yourFavorite);
             Console.WriteLine("Your favorite is {0}.", yourFavorite);
 
-            int alma = 1;
-            alma += 3 + 4 + 5;
-            alma++;
+            int alma = CalculateAlma();
             Console.WriteLine(alma);
 
+        }
+
+        private static int CalculateAlma()
+        {
+            int alma = 1;
+            const int INCREASE = 3 + 4 + 5;
+            alma += INCREASE;
+            alma++;
+            return alma;
         }
 
         private static void SayHello()
